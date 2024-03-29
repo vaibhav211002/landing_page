@@ -9,13 +9,9 @@
     color: black;
   }
   
-  .ntext {
-
-  }
-  
   .card-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid with minimum item width */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
     gap: 20px;
     padding: 20px;
   }
@@ -38,15 +34,15 @@
     margin-bottom: 15px;
   }
   
-  /* Responsive adjustments */
+
   @media screen and (max-width: 768px) {
     .card-container {
-      grid-template-columns: 1fr; /* Single column layout on phones */
-      padding: 10px; /* Adjust padding for smaller screens */
+      grid-template-columns: 1fr; 
+      padding: 10px; 
     }
   
     .text {
-      padding-left: 20px; /* Adjust padding for smaller screens */
+      padding-left: 20px;
     }
   }
   
